@@ -1,4 +1,6 @@
-cd /home/arshad/workspace/opensource/
+pwd=$(pwd)
+
+cd $pwd
 
 git clone https://github.com/arshadkazmi42/$1
 
@@ -9,12 +11,12 @@ gitifyme
 flipremote
 
 rm -rf package-lock.json
-npm install
+sudo npm install
 
 git add --all
 git commit -m "$COMMIT"
 git push
 npm publish --public
 
-cd /home/arshad/workspace/opensource/
+cd $pwd
 rm -rf $1
