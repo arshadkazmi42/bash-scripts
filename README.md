@@ -15,3 +15,8 @@ Personal bash scripts
 - [NPM](https://npmjs.com/)
   - [Fix Dependency](https://github.com/arshadkazmi42/bash-scripts/blob/main/npm/fixDependency.sh): Fixes vulnerability in dependencies by reinstalling package-lock.json
   - [NPM Deploy](https://github.com/arshadkazmi42/bash-scripts/blob/main/npm/npmDeploy.sh): Bumps version in package.json by 0.0.1 and releases to npm (Needs npm login)
+
+
+## Debugging
+
+- If you see error while running `npm install` try updating the script to use `sudo npm install`
