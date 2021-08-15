@@ -1,8 +1,11 @@
+USERNAME=arshadkazmi42
 pwd=$(pwd)
 
 cd $pwd
 
-git clone https://github.com/arshadkazmi42/$1
+rm -rf $1
+
+git clone https://github.com/$USERNAME/$1
 
 cd $1
 
