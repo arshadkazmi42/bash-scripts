@@ -1,0 +1,7 @@
+## scan-redirection.sh
+
+```bash
+$ sh scan-redirection.sh https://github.com/arshadkazmi42/bash-scripts
+
+|-----OK-----| https://github.com/arshadkazmi42/bash-scripts  =>  https://github.com/arshadkazmi42/bash-scripts
+```
