@@ -19,7 +19,7 @@ Personal bash scripts
   - [Scan Broken](https://github.com/arshadkazmi42/bash-scripts/blob/main/curl/scan-broken.sh): Sends curl request to input url and returns the HTTP Status Code.
   - [Scan Redirection](https://github.com/arshadkazmi42/bash-scripts/blob/main/curl/scan-redirection.sh): Sends curl request to input url and returns final url which gets loaded (Shows the redirected url if the input url is redirected to some other url).
 - [string-ops](https://tldp.org/LDP/abs/html/string-manipulation.html)
-  - [Recurl Rate Limit](https://github.com/arshadkazmi42/bash-scripts/blog/main/string-ops/recurl-ratelimit.sh): Filters out url with 429 status code and re-run with curl
+  - [Recurl Rate Limit](https://github.com/arshadkazmi42/bash-scripts/blob/main/string-ops/recurl-ratelimit.sh): Filters out url with 429 status code and re-run with curl
 
 ## Debugging
 
